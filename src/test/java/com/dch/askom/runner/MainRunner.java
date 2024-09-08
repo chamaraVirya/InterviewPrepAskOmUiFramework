@@ -7,7 +7,7 @@ import org.testng.annotations.DataProvider;
 @CucumberOptions(
         plugin = {"html:target/cucumber/cucumber.html"},
         glue = {"com/dch/askom/stepdefs"},
-        features = {"src/test/resources/features"}
+        features = {"src/test/resources/com.dch.askom.features"}
 )
 public class MainRunner extends AbstractTestNGCucumberTests {
 
