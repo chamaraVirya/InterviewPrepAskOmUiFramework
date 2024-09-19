@@ -16,7 +16,7 @@ public class PageFactoryManager {
         return checkoutPage == null ? checkoutPage = new CheckoutPage(driver) : checkoutPage;
     }
 
-    public StorePage getStorePage(WebDriver driver) {
+    public static StorePage getStorePage(WebDriver driver) {
         return storePage == null ? storePage = new StorePage(driver) : storePage;
     }
 }
